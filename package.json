@@ -1,9 +1,10 @@
 {
-  "name": "plan-maison-3d-engine",
+  "name": "plan-maison-moteur-3d",
   "version": "1.0.0",
   "private": true,
-  "description": "Backend sécurisé de rendu architectural 3D Blender pour PLAN MAISON",
+  "description": "Moteur 3D Blender pour PLAN MAISON",
   "main": "server.js",
-  "scripts": { "start": "node server.js" },
-  "dependencies": { "express": "^4.21.2" }
+  "scripts": {"start":"node server.js"},
+  "dependencies": {"express":"^4.21.2"},
+  "engines": {"node":">=18"}
 }
